@@ -19,9 +19,9 @@
 
 	<table class="table table-bordered">
 		<tr>
-			<th with="80px">No</th>
+			<th with="80px">Numbers</th>
 			<th>Title</th>
-			<th>Body</th>
+			<th>Content</th>
 			<th with="140px" class="text-center">
 				<a href="{{ route('posts.create') }}" class="btn btn-success btn-sm">
 					<i class="glyphicon glyphicon-plus"></i>

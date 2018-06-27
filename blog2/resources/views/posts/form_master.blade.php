@@ -14,11 +14,11 @@
 
 <div class="row">
 	<div class="col-sm-2">
-		{!! form::label('bosy', 'Body') !!}
+		{!! form::label('bosy', 'Content') !!}
 	</div>
 	<div class="col-sm-10">
 		<div class="form-group {{ $errors->has('body') ? 'has-error' : ""}}">
-			{{ 	Form::text('body',NULL, ['class'=>'form-control','id' => 'body', 'placeholder' => 'Body Post... ']) }}
+			{{ 	Form::text('body',NULL, ['class'=>'form-control','id' => 'body', 'placeholder' => 'Content Post... ']) }}
 			{{ $errors->first('body', '<p class="help-block">:message</p>') }}
 		</div>
 	</div>
